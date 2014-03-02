@@ -24,6 +24,11 @@
 		2AAA529918C293D4000F8EE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAA527418C293D4000F8EE0 /* UIKit.framework */; };
 		2AAA52A118C293D4000F8EE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA529F18C293D4000F8EE0 /* InfoPlist.strings */; };
 		2AAA52A318C293D4000F8EE0 /* SpriteKitPhysicsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA52A218C293D4000F8EE0 /* SpriteKitPhysicsTestTests.m */; };
+		2AAA52B218C29559000F8EE0 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA52AD18C29559000F8EE0 /* circle.png */; };
+		2AAA52B318C29559000F8EE0 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA52AE18C29559000F8EE0 /* octagon.png */; };
+		2AAA52B418C29559000F8EE0 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA52AF18C29559000F8EE0 /* sand.png */; };
+		2AAA52B518C29559000F8EE0 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA52B018C29559000F8EE0 /* square.png */; };
+		2AAA52B618C29559000F8EE0 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA52B118C29559000F8EE0 /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		2AAA529E18C293D4000F8EE0 /* SpriteKitPhysicsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitPhysicsTestTests-Info.plist"; sourceTree = "<group>"; };
 		2AAA52A018C293D4000F8EE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AAA52A218C293D4000F8EE0 /* SpriteKitPhysicsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitPhysicsTestTests.m; sourceTree = "<group>"; };
+		2AAA52AD18C29559000F8EE0 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		2AAA52AE18C29559000F8EE0 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		2AAA52AF18C29559000F8EE0 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		2AAA52B018C29559000F8EE0 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		2AAA52B118C29559000F8EE0 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +139,7 @@
 				2AAA528A18C293D4000F8EE0 /* MyScene.h */,
 				2AAA528B18C293D4000F8EE0 /* MyScene.m */,
 				2AAA528D18C293D4000F8EE0 /* Spaceship.png */,
+				2AAA52AC18C29559000F8EE0 /* Shapes */,
 				2AAA528F18C293D4000F8EE0 /* Images.xcassets */,
 				2AAA527918C293D4000F8EE0 /* Supporting Files */,
 			);
@@ -162,6 +173,18 @@
 				2AAA529F18C293D4000F8EE0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AAA52AC18C29559000F8EE0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA52AD18C29559000F8EE0 /* circle.png */,
+				2AAA52AE18C29559000F8EE0 /* octagon.png */,
+				2AAA52AF18C29559000F8EE0 /* sand.png */,
+				2AAA52B018C29559000F8EE0 /* square.png */,
+				2AAA52B118C29559000F8EE0 /* triangle.png */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +265,12 @@
 			files = (
 				2AAA527D18C293D4000F8EE0 /* InfoPlist.strings in Resources */,
 				2AAA529018C293D4000F8EE0 /* Images.xcassets in Resources */,
+				2AAA52B418C29559000F8EE0 /* sand.png in Resources */,
+				2AAA52B218C29559000F8EE0 /* circle.png in Resources */,
+				2AAA52B618C29559000F8EE0 /* triangle.png in Resources */,
+				2AAA52B318C29559000F8EE0 /* octagon.png in Resources */,
 				2AAA528E18C293D4000F8EE0 /* Spaceship.png in Resources */,
+				2AAA52B518C29559000F8EE0 /* square.png in Resources */,
 				2AAA528618C293D4000F8EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
